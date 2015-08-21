@@ -11,7 +11,6 @@ What it does?
 How to use?
 
 1. Start Terminal(or Command Prompt for Windows) go to directory where file name "gcode_converterV03.py" exists
-
 2. Type: python gcode_converterV03.py \<feedrate_traveling\> \<feedrate_cutting\> \<feedrate_zaxis\> \<filename1\> \[filename2 ... n\] (Python 2.x should be installed)
 
 Added features:
