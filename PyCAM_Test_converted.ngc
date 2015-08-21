@@ -1,0 +1,362 @@
+; CONVERTED FOR MENDEL: 2015-08-21 10:54:03.023586
+;PYCAM-META-DATA: Filename: None
+;PYCAM-META-DATA: Timestamp: 2015-08-18 23:43:18.343000
+;PYCAM-META-DATA: Version: 0.5.1.1
+;Estimated machine time: 39 minutes
+G90 ; disable incremental moves
+G21 ; metric
+F200.00000
+;PYCAM_TOOLPATH_SETTINGS: START
+;[Bounds]
+;maxz = 0.0
+;maxx = 178.5
+;maxy = 98.5
+;minx = 51.5
+;miny = 51.5
+;minz = -10.0
+;
+;[Tool]
+;torus_radius = 0.25
+;speed = 1000.0
+;shape = SphericalCutter
+;tool_radius = 1.5
+;feedrate = 200.0
+;
+;[Process]
+;generator = PushCutter
+;pocketing_type = none
+;engrave_offset = 0.0
+;milling_style = ignore
+;path_direction = x
+;step_down = 3.0
+;postprocessor = SimpleCutter
+;overlap_percent = 0
+;material_allowance = 0.5
+;
+;PYCAM_TOOLPATH_SETTINGS: END
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+M103 ; Support for Visualisation
+G04 P3 ; wait for 3 seconds
+G0 X51.5000 Y51.5000 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X52.5288 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X177.4712 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X178.5000 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X60.9272 Y57.3750 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X169.0728 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X172.2499 Y60.3125 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X57.7501 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X56.5141 Y63.2500 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X173.4859 F200 
+G1 X173.6771 Y66.1875 F200 
+G1 X56.3229 F200 
+G1 Y69.1250 F200 
+G1 X173.6771 F200 
+G1 Y72.0625 F200 
+G1 X56.3229 F200 
+G1 Y75.0000 F200 
+G1 X173.6771 F200 
+G1 Y77.9375 F200 
+G1 X56.3229 F200 
+G1 Y80.8750 F200 
+G1 X173.6771 F200 
+G1 Y83.8125 F200 
+G1 X56.3229 F200 
+G1 X56.5141 Y86.7500 F200 
+G1 X173.4859 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X172.2499 Y89.6875 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X57.7501 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X60.9272 Y92.6250 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X169.0728 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X51.5000 Y98.5000 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X52.5288 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X177.4712 F300 
+G1 Z0.0000 F100 
+M101 ; Support for Visualisation
+G1 X178.5000 F200 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X178.4204 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X51.5796 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X51.5000 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X167.3416 Y92.6250 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X62.6584 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X58.5320 Y89.6875 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X171.4680 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X172.7855 Y86.7500 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X57.2145 F200 
+G1 X57.0000 Y83.8125 F200 
+G1 X173.0000 F200 
+G1 Y80.8750 F200 
+G1 X167.2245 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X100.6950 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X94.9974 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X69.4329 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X57.0000 F200 
+G1 Y77.9375 F200 
+G1 X68.0929 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X75.3112 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X81.2292 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X93.6546 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X99.3568 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X111.6481 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X117.8553 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X148.4086 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X150.3553 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X157.5848 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X159.5325 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X166.6821 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X173.0000 F200 
+G1 Y75.0000 F200 
+G1 X165.3410 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X158.1910 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X156.2505 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X149.0145 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X147.0739 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X121.5833 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X121.3498 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X66.7529 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X57.0000 F200 
+G1 Y72.0625 F200 
+G1 X65.4129 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X145.7392 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X147.7854 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X154.9161 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X156.9614 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X164.0000 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X173.0000 F200 
+G1 Y69.1250 F200 
+G1 X102.4375 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X84.5905 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X71.1897 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X64.0729 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X57.0000 F200 
+G1 Y66.1875 F200 
+G1 X63.5360 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X69.8350 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X83.4860 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X98.9995 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X173.0000 F200 
+G1 X172.7855 Y63.2500 F200 
+G1 X57.2145 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X58.5320 Y60.3125 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X171.4680 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X167.3416 Y57.3750 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X62.6584 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X178.5000 Y51.5000 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X178.4204 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X51.5796 F300 
+M103 ; Support for Visualisation
+G1 Z-2.5000 F100 
+G1 X51.5000 F200 
+G1 Z-5.0000 F100 
+M101 ; Support for Visualisation
+G1 X51.5796 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X178.4204 F300 
+G1 Z-5.0000 F100 
+M101 ; Support for Visualisation
+G1 X178.5000 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X51.5000 Y98.5000 F300 
+G1 Z-5.0000 F100 
+M101 ; Support for Visualisation
+G1 X51.5796 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X178.4204 F300 
+G1 Z-5.0000 F100 
+M101 ; Support for Visualisation
+G1 X178.5000 F200 
+M103 ; Support for Visualisation
+G1 Z-7.5000 F100 
+G1 X178.4204 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X51.5796 F300 
+M103 ; Support for Visualisation
+G1 Z-7.5000 F100 
+G1 X51.5000 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X178.5000 Y51.5000 F300 
+M103 ; Support for Visualisation
+G1 Z-7.5000 F100 
+G1 X178.4204 F200 
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 X51.5796 F300 
+M103 ; Support for Visualisation
+G1 Z-7.5000 F100 
+G1 X51.5000 F200 
+G1 Z-10.0000 F100 
+M101 ; Support for Visualisation
+G1 X51.5796 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X178.4204 F300 
+G1 Z-10.0000 F100 
+M101 ; Support for Visualisation
+G1 X178.5000 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X51.5000 Y98.5000 F300 
+G1 Z-10.0000 F100 
+M101 ; Support for Visualisation
+G1 X51.5796 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+G0 X178.4204 F300 
+G1 Z-10.0000 F100 
+M101 ; Support for Visualisation
+G1 X178.5000 F200 
+M103 ; Support for Visualisation
+G1 Z25.0000 F100 
+M103 ; Support for Visualisation
+G04 P3 ; wait for 3 seconds
+G1 Z25.0000 F100 
+M101 ; Support for Visualisation
+G0 F300 ; FINISH THE CUT BY MOVING BIT TO SAFER POSITION
+M103 ; Support for Visualisation
+G1 Z18.000000 F100 
+G1 X0.000000 Y0.000000 F200 
